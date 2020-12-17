@@ -14,7 +14,7 @@ function verifyToken(token, secret) {
   return jwt.verify(token, secret);
 }
 
-if (option == "sign") {
+if (option == "sing") {
   console.log(signToken({ sub: nameOrToken }, secret));
 } else if (option == "verify") {
   console.log(verifyToken(nameOrToken, secret));
