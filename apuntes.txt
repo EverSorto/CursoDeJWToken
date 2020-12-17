@@ -1,0 +1,33 @@
+JSONWebToken
+Oauth 2.0 
+OpenID Connect
+passwor less
+
+express-cookie => Almacenar session en cookie
+express-session => Almacenar la session en el servidor
+
+--------------------------Anatomia de JSWToken----------------------------------------------
+JSWToken  RFC 7519 =>  
+Header => algoritmo de encripacion  y el typo de dato 
+ 
+payload => cleams = 
+
+SPA =>  
+
+------------------Firmar un JWT ------------------------------------------------------------
+Libreria de jwt se usa el metodo sing 
+
+jwt.sing({sub: ser.id},secret,options)
+
+sub: payload 
+secret: secret key 
+
+Verificar el jwt:
+
+jwt.verify(token, 'secret', function(err,decoreded){})
+
+jsonwebtoken => libreria.
+
+investigar process.argv;
+
+
